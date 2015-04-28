@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/image" />
+
+    <Button
+        android:id="@+id/bookingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/searchButton"
+        android:layout_alignBottom="@+id/searchButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="61dp"
+        android:text="@string/video" />
+
+    <ImageView
+        android:id="@+id/propImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/searchButton"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/kfm_home" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/propImageView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add" />
+
+</RelativeLayout>
